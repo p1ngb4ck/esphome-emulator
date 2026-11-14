@@ -70,3 +70,13 @@ PCE-GO / HuExpress, Handy (K. Wilkins), fMSX (Marat Fayzullin), Snes9x (Gary Hen
 team), Gwenesis and LCD-Game-Emulator (bzhxx). Thank you all - decades of emulation work made this possible. Each
 core keeps its licence file in `esphome/components/emulator/emu`. Everyone this project builds on:
 [ATTRIBUTIONS.md](https://github.com/p1ngb4ck/esphome/blob/dev/ATTRIBUTIONS.md).
+
+## Branch structure
+
+Each `pr/` branch holds one part of this topic on top of upstream and says in its `BRANCH.md` what it is based on. `main` holds all of them.
+
+| Branch | Based on |
+|---|---|
+| `pr/emulator` | `pr/display-video-output-page-draw` of p1ngb4ck/esphome-esp-video, `pr/storage` of p1ngb4ck/esphome-storage-interface |
+| `pr/emulator-close` | `pr/emulator` |
+| `pr/emulator-close-action` | `pr/display-video-output-page-draw` of p1ngb4ck/esphome-esp-video, `pr/storage` of p1ngb4ck/esphome-storage-interface |
