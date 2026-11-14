@@ -6,5 +6,5 @@ Change of this branch: `emulator`: the game emulator app - one non-blocking PPA 
 
 Based on these branches, whose changes it holds and builds on:
 
-- `pr/display-video-output-page-draw` of p1ngb4ck/esphome-esp-video: display: page draw calls (`page_rect`, `page_fill`, `page_pixels`, `page_copy`, `page_read`, `page_show`, `page_bpp`, `canvas_point`)
+- `pr/display-video-output-rows` of p1ngb4ck/esphome-esp-video: display: `open_rows`, `rows_begin` / `rows_end` for a writer of its own, `rotation()`, `display()`
 - `pr/storage` of p1ngb4ck/esphome-storage-interface: the `storage` component: registry, path / filesystem / network / raw storages, the asynchronous worker (jobs, streams), `storage.*` actions, PSRAM transfer buffer, change feed, ISO 9660 mount
