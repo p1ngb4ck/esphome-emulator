@@ -77,6 +77,6 @@ Each `pr/` branch holds one part of this topic on top of upstream and says in it
 
 | Branch | Based on |
 |---|---|
-| `pr/emulator` | `pr/display-video-output-page-draw` of p1ngb4ck/esphome-esp-video, `pr/storage` of p1ngb4ck/esphome-storage-interface |
+| `pr/emulator` | `pr/display-video-output-rows` of p1ngb4ck/esphome-esp-video, `pr/storage` of p1ngb4ck/esphome-storage-interface |
 | `pr/emulator-close` | `pr/emulator` |
-| `pr/emulator-close-action` | `pr/display-video-output-page-draw` of p1ngb4ck/esphome-esp-video, `pr/storage` of p1ngb4ck/esphome-storage-interface |
+| `pr/emulator-close-action` | `pr/emulator-close` |
